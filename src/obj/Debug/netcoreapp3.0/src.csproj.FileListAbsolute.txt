@@ -1,0 +1,11 @@
+C:\Users\laura.velez\GH_Personal\150Exercises\src\obj\Debug\netcoreapp3.0\src.csprojAssemblyReference.cache
+C:\Users\laura.velez\GH_Personal\150Exercises\src\obj\Debug\netcoreapp3.0\src.AssemblyInfoInputs.cache
+C:\Users\laura.velez\GH_Personal\150Exercises\src\obj\Debug\netcoreapp3.0\src.AssemblyInfo.cs
+C:\Users\laura.velez\GH_Personal\150Exercises\src\bin\Debug\netcoreapp3.0\src.exe
+C:\Users\laura.velez\GH_Personal\150Exercises\src\bin\Debug\netcoreapp3.0\src.deps.json
+C:\Users\laura.velez\GH_Personal\150Exercises\src\bin\Debug\netcoreapp3.0\src.runtimeconfig.json
+C:\Users\laura.velez\GH_Personal\150Exercises\src\bin\Debug\netcoreapp3.0\src.runtimeconfig.dev.json
+C:\Users\laura.velez\GH_Personal\150Exercises\src\bin\Debug\netcoreapp3.0\src.dll
+C:\Users\laura.velez\GH_Personal\150Exercises\src\bin\Debug\netcoreapp3.0\src.pdb
+C:\Users\laura.velez\GH_Personal\150Exercises\src\obj\Debug\netcoreapp3.0\src.dll
+C:\Users\laura.velez\GH_Personal\150Exercises\src\obj\Debug\netcoreapp3.0\src.pdb
