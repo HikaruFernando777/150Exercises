@@ -13,8 +13,9 @@
             "program": "${workspaceFolder}/src/bin/Debug/netcoreapp3.0/src.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src",
+            "externalConsole": true,
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
+            "console": "externalTerminal",
             "stopAtEntry": false
         },
         {

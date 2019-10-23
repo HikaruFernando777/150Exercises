@@ -31,11 +31,12 @@ namespace src
                 intArray[i] = Convert.ToInt32(Console.ReadLine());
             }
             
+            int y=0;
             for (var j = 0; j < 4; j++)
             {
-                int y=j;
+                
                 Console.WriteLine(intArray[j]);
-                if(j==0)
+                if(j==3)
                     Console.WriteLine(e02.SumInt(intArray[y],intArray[y+1]));
             }
 
