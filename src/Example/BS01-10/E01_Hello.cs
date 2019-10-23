@@ -6,6 +6,8 @@ namespace src
     {
         public void Print()
         {
+            Console.Write("Hello");
+            Console.Write("\nLau");
             Console.WriteLine("Hello");
             Console.WriteLine("Lau");
         }
