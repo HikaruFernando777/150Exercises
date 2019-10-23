@@ -66,12 +66,13 @@ namespace src
             for (var j = 0; j < size; j++)
             {
                 Console.WriteLine(intArray[j]);
-                if (j == 3)
+                if (j == size)
                 {
                     Console.WriteLine("Suma de la posición 0 del arreglo, posición 1 y el valor de _SUMA = "+ _SUMA);
                     Console.WriteLine(SumInt(intArray[y], intArray[y + 1]));
                 }
             }
+            Console.ReadKey();
         }
     }
 }
