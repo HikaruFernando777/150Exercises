@@ -9,16 +9,20 @@ namespace src
 
         public static void SecondE()
         {
+            Console.WriteLine();
+            Console.WriteLine("Ex2: ");
+            Console.WriteLine("Digite dos números para las operaciones.");
+            Console.WriteLine("Primero:");
             var num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Segundo:");
             var num2 = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine();
-            Console.WriteLine("E2: ");
-            Console.WriteLine();
-            Console.WriteLine("Void");
+            Console.WriteLine("Ejecutando método Sum:");
             Sum(num1, num2);
 
             Console.WriteLine();
-            Console.WriteLine("Suma");
+            Console.WriteLine("Ejecutando método SumInt");
             var suma = SumInt(3, 4);
             Console.WriteLine(suma);
             Console.WriteLine();
@@ -30,6 +34,7 @@ namespace src
             var sum = 0;
             sum = numA + numB;
             _SUMA = numA + numB;
+            Console.WriteLine("Asignando valor a la variable global _SUMA: " + _SUMA);
             Console.WriteLine(sum);
         }
 
@@ -41,20 +46,31 @@ namespace src
             return sum;
         }
 
-        public static void ArrayLoop(){
-            
-            int[] intArray = new int[4];
+        public static void ArrayLoop()
+        {
+            Console.WriteLine("Indique el tamaño del array que desea crear: ");
+            var size = Convert.ToInt32(Console.ReadLine());
+            int[] intArray = new int[size];
+            Console.WriteLine("Ingrese el valor de cada posición: ");
+            var p = 0;
             for (var i = 0; i < 4; i++)
             {
+                p = i + 1;
+                Console.WriteLine("Posición del arreglo número " + p);
                 intArray[i] = Convert.ToInt32(Console.ReadLine());
             }
 
+            Console.WriteLine();
+            Console.WriteLine("Arreglo impreso:");
             int y = 0;
             for (var j = 0; j < 4; j++)
             {
                 Console.WriteLine(intArray[j]);
                 if (j == 3)
+                {
+                    Console.WriteLine("Suma de la posición 0 del arreglo, posición 1 y el valor de _SUMA = "+ _SUMA);
                     Console.WriteLine(SumInt(intArray[y], intArray[y + 1]));
+                }
             }
         }
     }

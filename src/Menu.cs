@@ -1,9 +1,9 @@
 namespace src
 {
     using System;
-    public class Menu
+    public static class Menu
     {
-        public void menushift()
+        public static void menushift()
         {
             Console.WriteLine("Por favor elija el número del ejercicio que desea ejecutar.");
             var exNum = Convert.ToInt32(Console.ReadLine());
