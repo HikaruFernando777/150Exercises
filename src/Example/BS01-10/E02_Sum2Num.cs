@@ -53,7 +53,7 @@ namespace src
             int[] intArray = new int[size];
             Console.WriteLine("Ingrese el valor de cada posición: ");
             var p = 0;
-            for (var i = 0; i < 4; i++)
+            for (var i = 0; i < size; i++)
             {
                 p = i + 1;
                 Console.WriteLine("Posición del arreglo número " + p);
@@ -63,7 +63,7 @@ namespace src
             Console.WriteLine();
             Console.WriteLine("Arreglo impreso:");
             int y = 0;
-            for (var j = 0; j < 4; j++)
+            for (var j = 0; j < size; j++)
             {
                 Console.WriteLine(intArray[j]);
                 if (j == 3)
