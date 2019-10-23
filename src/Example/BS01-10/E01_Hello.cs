@@ -2,9 +2,14 @@ using System;
 
 namespace src
 {
-    public class E01_Hello
+    public static class E01_Hello
     {
-        public void Print()
+        public static void firstE(){
+            Console.WriteLine();
+            Console.WriteLine("E1: ");
+            Print();
+        }
+        public static void Print()
         {
             Console.Write("Hello");
             Console.Write("\nLau");
