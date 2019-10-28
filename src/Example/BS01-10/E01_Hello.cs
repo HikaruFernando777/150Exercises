@@ -14,6 +14,7 @@ namespace src
             Console.WriteLine();
             Console.WriteLine("Ex1: ");
             Print();
+            Console.ReadKey();
         }
         public static void Print()
         {
@@ -22,6 +23,7 @@ namespace src
             Console.WriteLine();
             Console.WriteLine("Hello");
             Console.WriteLine("Lau");
+            Console.ReadKey();
         }
     }
 }
