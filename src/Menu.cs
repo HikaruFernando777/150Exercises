@@ -15,6 +15,10 @@ namespace src
                     E02_Sum2Num.SecondE();
                 break;
                 case 3:
+                    E03_Pow3.Loops();
+                break;
+                case 4:
+                    E03_Pow3.Loops2();
                 break;
                 default:
                     Console.ReadKey();
